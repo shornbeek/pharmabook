@@ -14,7 +14,39 @@
     <title>PharmaBook </title>
 
 
+<style>
 
+
+
+/* Style the video: 100% width and height to cover the entire window */
+.contain {
+    position: relative;
+}
+
+#myVideo {
+    position:absolute;
+  width: 100%;
+  padding-right: 25%;
+  padding-left: 25%;
+  padding-top: 10%;
+
+}
+
+.theimage {
+    position:absolute;
+
+  width: 100%;
+  z-index: -1;
+  padding-right: 12%;
+  padding-left: 12%;
+}
+
+.container1a {
+    position: absolute; 
+}
+
+
+</style>
 
 
 </head>
@@ -84,16 +116,31 @@
                   </ul>
                 </div> 
               </nav>
-              
-        <img class="container1" src="images/linked2.png" alt="header crm data">
 
+              <img class="container1 " src="images/linked2.png" alt="header crm data">
+
+
+<div class="contain">
+
+
+
+        <!-- The video -->
+<video autoplay muted loop id="myVideo">
+    <source src="video.mp4" type="video/mp4">
+  </video>
+  
+
+<img class="theimage" src="https://www.sccpre.cat/mypng/full/0-5625_tablet-blank-transparent-png-iphone-screen-for-powerpoint.png" width="100%" >
+
+</div>
+<!-- 
     <div class="container">
     
     
     <center>
         <h1 class="textgrade1">Control Your Parma Data</h1>
 
-        <p class="testfont" >Explore Doctors, Target Payments, Improve Your Analytics</p>
+        <p class="testfont" >Ready to get better answers from your raw data?</p>
     </center>
 
 <div class="">
@@ -271,7 +318,7 @@
 
     </div>
 
-    <img class="container1" src="images/footer.png" alt="footer">
+    <img class="container1" src="images/footer.png" alt="footer"> -->
 
 </body>
 </html>
