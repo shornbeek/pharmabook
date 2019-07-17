@@ -127,11 +127,18 @@ h1 {
 
 
 .navbar-toggler {
-    border: none;
+border: none;
 outline: none;
 }
 
 .dropdown-menu{
     border: 0;
+}
+
+.fixy {
+    position: fixed;
+  
+    bottom: 0;
+
 }
 
