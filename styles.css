@@ -72,6 +72,16 @@ h1 {
     padding: 30px 15% 0 15%;
 }
 
+
+.textgrade3 {
+    font-size: 32px;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(rgb(199, 32, 185), rgb(37, 114, 230));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+
  .textgrade1 {
     font-size: 30px;
     font-weight: bolder;
